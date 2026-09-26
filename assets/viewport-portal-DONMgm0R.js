@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./jsx-runtime-C27Mmbu5.js";import{V as n}from"./link-CcOyVtVv.js";var r=e(t(),1),i=e(n(),1);function a({children:e}){let[t,n]=(0,r.useState)(!1);return(0,r.useEffect)(()=>n(!0),[]),!t||typeof document>`u`?null:(0,i.createPortal)(e,document.body)}export{a as t};

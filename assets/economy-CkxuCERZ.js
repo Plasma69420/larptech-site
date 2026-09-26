@@ -1,0 +1,1 @@
+function e(e){let t=Number(e)/100;return Number.isFinite(t)?t.toLocaleString(void 0,{minimumFractionDigits:Number.isInteger(t)?0:2,maximumFractionDigits:2}):`0`}function t(e){let t=typeof e==`number`?e:Number(e.trim());if(!Number.isFinite(t))return null;let n=Math.round(t*100);return n===0?null:n}export{t as n,e as t};
